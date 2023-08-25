@@ -9,7 +9,6 @@ Debido a esto, se busca brindar más información a la población en general sob
 ## Objetivo
 -Desarrollar un sitio web informativo implementando el uso de diversas fuentes que brindan informacion sobre acontecimientos relacionados con el desarme a nivel mundial, para que las personas puedan encontrar informacion veraz.
 
-
 ## Estado del arte
 
 - https://www.un.org/disarmament/es/
