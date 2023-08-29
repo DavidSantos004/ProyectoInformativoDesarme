@@ -41,11 +41,10 @@ Adicionalmente, la Comisión de Desarme de las Naciones Unidas, como se destaca 
 - https://www.opcw.org/es
 - https://www.unmas.org/en
 - https://treaties.unoda.org/
-- https://pmt-eu.hosted.exlibrisgroup.com/primo-explore/search?institution=41UNOG&vid=41DHL_V2&tab=default_tab&search_scope=41unog_alma_ny&mode=basic&displayMode=full&bulkSize=10&highlight=true&dum=true&query=any,contains,Desarme&displayField=all&pcAvailabiltyMode=true
 - https://www.un.org/disarmament/sg-agenda/es/
 - https://www.un.org/disarmament/publications/basic-guide/
-- https://www.un.org/disarmament/es/publications/yearbook/
--https://www.un.org/disarmament/es/folletos-informativos-sobre-cuestiones-de-desarme/
+- https://disarmament.unoda.org/publications/yearbook/
+- https://www.un.org/disarmament/es/folletos-informativos-sobre-cuestiones-de-desarme/
 
 # Wireframes
 ## Desktop
