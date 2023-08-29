@@ -49,4 +49,7 @@ Adicionalmente, la Comisión de Desarme de las Naciones Unidas, como se destaca 
 
 #
 ## Wireframes
-![Imagen](./Diseños/designProjectDisarmament.png)
+### Desktop
+![Wireframes Desktop](./Diseños/DesignDesktop.pdf)
+### Movile
+![Wireframes Movile](./Diseños/DesignMovile.pdf)
