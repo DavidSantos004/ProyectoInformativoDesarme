@@ -47,15 +47,22 @@ Adicionalmente, la Comisión de Desarme de las Naciones Unidas, como se destaca 
 - https://www.un.org/disarmament/es/publications/yearbook/
 -https://www.un.org/disarmament/es/folletos-informativos-sobre-cuestiones-de-desarme/
 
-#
-## Wireframes
-### Desktop
-![Wireframe Desktop 1](./Diseños/DesignDesktop.pdf)
-![Wireframe Desktop 2](./Diseños/DesignDesktop.pdf)
-![Wireframe Desktop 3](./Diseños/DesignDesktop.pdf)
-![Wireframe Desktop 4](./Diseños/DesignDesktop.pdf)
-![Wireframe Desktop 5](./Diseños/DesignDesktop.pdf)
-![Wireframe Desktop 6](./Diseños/DesignDesktop.pdf)
+# Wireframes
+## Desktop
+![Wireframe Desktop 1](./Diseños/Desktop/DesignDesktop1.jpg)
+![Wireframe Desktop 2](./Diseños/Desktop/DesignDesktop2.jpg)
+![Wireframe Desktop 3](./Diseños/Desktop/DesignDesktop3.jpg)
+![Wireframe Desktop 4](./Diseños/Desktop/DesignDesktop4.jpg)
+![Wireframe Desktop 5](./Diseños/Desktop/DesignDesktop5.jpg)
+![Wireframe Desktop 6](./Diseños/Desktop/DesignDesktop6.jpg)
 
-### Mobile
-![Wireframes Movile](./Diseños/DesignMovile.pdf)
+#
+## Mobile
+![Wireframe Mobile 1](./Diseños/Mobile/DesignMobile1.jpg)
+![Wireframe Mobile 2](./Diseños/Mobile/DesignMobile2.jpg)
+![Wireframe Mobile 3](./Diseños/Mobile/DesignMobile3.jpg)
+![Wireframe Mobile 4](./Diseños/Mobile/DesignMobile4.jpg)
+![Wireframe Mobile 5](./Diseños/Mobile/DesignMobile5.jpg)
+![Wireframe Mobile 6](./Diseños/Mobile/DesignMobile6.jpg)
+![Wireframe Mobile 7](./Diseños/Mobile/DesignMobile7.jpg)
+a
