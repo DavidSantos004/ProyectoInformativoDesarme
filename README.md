@@ -65,4 +65,3 @@ Adicionalmente, la Comisión de Desarme de las Naciones Unidas, como se destaca 
 ![Wireframe Mobile 5](./Diseños/Mobile/DesignMobile5.jpg)
 ![Wireframe Mobile 6](./Diseños/Mobile/DesignMobile6.jpg)
 ![Wireframe Mobile 7](./Diseños/Mobile/DesignMobile7.jpg)
-a
