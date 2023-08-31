@@ -48,12 +48,12 @@ Adicionalmente, la Comisión de Desarme de las Naciones Unidas, como se destaca 
 
 # Wireframes
 ## Desktop
-![Wireframe Desktop 1](./Diseños/Desktop/DesignDesktop1.jpg)
-![Wireframe Desktop 2](./Diseños/Desktop/DesignDesktop2.jpg)
-![Wireframe Desktop 3](./Diseños/Desktop/DesignDesktop3.jpg)
-![Wireframe Desktop 4](./Diseños/Desktop/DesignDesktop4.jpg)
-![Wireframe Desktop 5](./Diseños/Desktop/DesignDesktop5.jpg)
-![Wireframe Desktop 6](./Diseños/Desktop/DesignDesktop6.jpg)
+![Wireframe Desktop 1](./Desktop_/DesignDesktop1.jpg)
+![Wireframe Desktop 2](./Desktop_/DesignDesktop2.jpg)
+![Wireframe Desktop 3](./Desktop_/DesignDesktop3.jpg)
+![Wireframe Desktop 4](./Desktop_/DesignDesktop4.jpg)
+![Wireframe Desktop 5](./Desktop_/DesignDesktop5.jpg)
+![Wireframe Desktop 6](./Desktop_/DesignDesktop6.jpg)
 
 #
 ## Mobile
