@@ -370,7 +370,7 @@ footer {
 }
 
 /* CELULAR */
-@media (width <= 480px) {
+@media (width <= 720px) {
   .acerca,
   .proceso,
   .impacto,
@@ -380,7 +380,7 @@ footer {
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 10vw;
   }
 
   /* ESTILOS A LA SECCION PROCESO DE DESARME */
@@ -440,10 +440,12 @@ footer {
 
   .contenedor__videos {
     margin-top: 30px;
+    align-items: center;
+    padding: 0 50px;
   }
 
   .contenedor__videos iframe {
-    width: 100%;
+    width: 80%;
     height: 210px;
   }
 
@@ -467,5 +469,89 @@ footer {
 }
 
 /* TABLET */
-@media (width > 480px) and (width<= 1024px) {
+@media (width > 720px) {
+  .acerca,
+  .proceso,
+  .impacto,
+  .contacto,
+  .recursos {
+    padding: 100px 10% 40px;
+  }
+
+  h1 {
+    font-size: 10vw;
+  }
+
+  /* ESTILOS A LA SECCION PROCESO DE DESARME */
+
+  .proceso__desarme {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .proceso__desarme p,
+  .proceso__desarme div {
+    padding: 0;
+  }
+
+  .proceso__container .proceso__desarme:nth-child(even) p {
+    margin-bottom: 20px;
+  }
+
+  .proceso__desarme img {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+  }
+
+  /* ESTILOS A LA SECCION IMPACTO POSITIVO */
+
+  .impacto {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .contenedor__impacto {
+    margin: 0 0 100px;
+  }
+
+  .contenedor__impacto figure {
+    width: 100%;
+  }
+
+  .contacto__form {
+    width: 100%;
+  }
+
+  /* ESTILOS A LA SECCION RECURSOS */
+
+  .recursos__contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedor__videos {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .contenedor__videos iframe {
+    margin-top: 20px;
+  }
+
+  /* ESTILOS AL FOOTER */
+
+  footer {
+    font-size: 1.2rem;
+  }
+  .autores {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+  }
+  .autores a {
+    margin-bottom: 10px;
+  }
 }
