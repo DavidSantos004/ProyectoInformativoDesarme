@@ -269,4 +269,20 @@ li {
 
 /* ESTILOS A LA SECCION CONTACTO */
 
+.contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto__form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+
+
+
 /* ESTILOS A LA SECCION RECURSOS */
