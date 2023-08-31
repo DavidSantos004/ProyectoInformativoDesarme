@@ -143,7 +143,7 @@ li {
 
 /* ESTILOS A LA SECCION PROCESO DE DESARME */
 
-.proceso div:nth-child(even) p {
+.proceso__container .proceso__desarme:nth-child(even) p {
   margin-bottom: 30px;
 }
 
@@ -281,8 +281,191 @@ li {
   margin: 0 auto;
 }
 
+.contacto__form label,
+.contacto__form input {
+  font-size: 2rem;
+}
 
+.contacto__form input {
+  margin-bottom: 30px;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid var(--color-principal);
+}
+.contacto__form textarea {
+  resize: none;
+  font-size: 2rem;
+  padding: 10px;
+}
 
+.contacto__form textarea:focus {
+  outline: none;
+}
+.contacto__form input[type="submit"] {
+  margin-top: 50px;
+  border: 2px solid var(--color-principal);
+  padding: 10px;
+}
 
+.contacto__form input[type="submit"]:hover {
+  color: white;
+  background-color: var(--color-principal);
+  transition: 0.3s ease-out;
+}
 
 /* ESTILOS A LA SECCION RECURSOS */
+
+.recursos {
+  padding-bottom: 112px;
+}
+
+.recursos__contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor__enlaces li {
+  margin-bottom: 10px;
+}
+
+.contenedor__enlaces a {
+  text-decoration: none;
+  color: white;
+}
+
+.contenedor__enlaces a:hover {
+  color: var(--color-secundario);
+}
+
+.contenedor__videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ESTILOS AL FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 30px;
+}
+
+.autores {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 10px 20%;
+}
+
+.autores a {
+  text-decoration: none;
+  color: var(--color-principal);
+}
+
+.autores a:hover {
+  color: var(--color-secundario);
+}
+
+/* CELULAR */
+@media (width <= 480px) {
+  .acerca,
+  .proceso,
+  .impacto,
+  .contacto,
+  .recursos {
+    padding: 100px 10% 40px;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  /* ESTILOS A LA SECCION PROCESO DE DESARME */
+
+  .proceso__desarme {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .proceso__desarme p,
+  .proceso__desarme div {
+    padding: 0;
+  }
+
+  .proceso__container .proceso__desarme:nth-child(even) p {
+    margin-bottom: 20px;
+  }
+
+  .proceso__desarme img {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+  }
+
+  /* ESTILOS A LA SECCION IMPACTO POSITIVO */
+
+  .impacto {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .contenedor__impacto {
+    margin: 0 0 100px;
+  }
+
+  .contenedor__impacto figure {
+    width: 100%;
+  }
+
+  /* ESTILOS A LA SECCION CONTACTO */
+
+  .contacto h2 {
+    font-size: 6rem;
+  }
+
+  .contacto__form {
+    width: 100%;
+  }
+
+  /* ESTILOS A LA SECCION RECURSOS */
+
+  .recursos__contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedor__videos {
+    margin-top: 30px;
+  }
+
+  .contenedor__videos iframe {
+    width: 100%;
+    height: 210px;
+  }
+
+  .contenedor__videos iframe {
+    margin-top: 20px;
+  }
+
+  /* ESTILOS AL FOOTER */
+
+  footer {
+    font-size: 1.2rem;
+  }
+  .autores {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+  }
+  .autores a {
+    margin-bottom: 10px;
+  }
+}
+
+/* TABLET */
+@media (width > 480px) and (width<= 1024px) {
+}
