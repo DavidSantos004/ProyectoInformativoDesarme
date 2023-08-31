@@ -84,10 +84,10 @@ La última pantalla contiene la sección de recursos y el footer de la página, 
 
 #
 ## Mobile
-![Wireframe Mobile 1](./Diseños/Mobile_/DesignMobile1.jpg)
-![Wireframe Mobile 2](./Diseños/Mobile_/DesignMobile2.jpg)
-![Wireframe Mobile 3](./Diseños/Mobile_/DesignMobile3.jpg)
-![Wireframe Mobile 4](./Diseños/Mobile_/DesignMobile4.jpg)
-![Wireframe Mobile 5](./Diseños/Mobile_/DesignMobile5.jpg)
-![Wireframe Mobile 6](./Diseños/Mobile_/DesignMobile6.jpg)
-![Wireframe Mobile 7](./Diseños/Mobile_/DesignMobile7.jpg)
+![Wireframe Mobile 1](./Diseños/Mobile/DesignMobile1.jpg)
+![Wireframe Mobile 2](./Diseños/Mobile/DesignMobile2.jpg)
+![Wireframe Mobile 3](./Diseños/Mobile/DesignMobile3.jpg)
+![Wireframe Mobile 4](./Diseños/Mobile/DesignMobile4.jpg)
+![Wireframe Mobile 5](./Diseños/Mobile/DesignMobile5.jpg)
+![Wireframe Mobile 6](./Diseños/Mobile/DesignMobile6.jpg)
+![Wireframe Mobile 7](./Diseños/Mobile/DesignMobile7.jpg)
