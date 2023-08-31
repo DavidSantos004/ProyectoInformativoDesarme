@@ -48,7 +48,12 @@ Adicionalmente, la Comisión de Desarme de las Naciones Unidas, como se destaca 
 
 # Wireframes
 ## Desktop
-![Wireframe Desktop 1](./Desktop_/DesignDesktop1.jpg)
+La pantalla principal tiene un menú de navegación el cual tiene un logotipo y unos enlaces de referencia, además tiene un título referente a la temática a tratar con un banner de fondo.
+<p align="center">
+  <img src="./Desktop_/DesignDesktop1.jpg">
+</p>
+
+
 ![Wireframe Desktop 2](./Desktop_/DesignDesktop2.jpg)
 ![Wireframe Desktop 3](./Desktop_/DesignDesktop3.jpg)
 ![Wireframe Desktop 4](./Desktop_/DesignDesktop4.jpg)
@@ -57,10 +62,10 @@ Adicionalmente, la Comisión de Desarme de las Naciones Unidas, como se destaca 
 
 #
 ## Mobile
-![Wireframe Mobile 1](./Diseños/Mobile/DesignMobile1.jpg)
-![Wireframe Mobile 2](./Diseños/Mobile/DesignMobile2.jpg)
-![Wireframe Mobile 3](./Diseños/Mobile/DesignMobile3.jpg)
-![Wireframe Mobile 4](./Diseños/Mobile/DesignMobile4.jpg)
-![Wireframe Mobile 5](./Diseños/Mobile/DesignMobile5.jpg)
-![Wireframe Mobile 6](./Diseños/Mobile/DesignMobile6.jpg)
-![Wireframe Mobile 7](./Diseños/Mobile/DesignMobile7.jpg)
+![Wireframe Mobile 1](./Diseños/Mobile_/DesignMobile1.jpg)
+![Wireframe Mobile 2](./Diseños/Mobile_/DesignMobile2.jpg)
+![Wireframe Mobile 3](./Diseños/Mobile_/DesignMobile3.jpg)
+![Wireframe Mobile 4](./Diseños/Mobile_/DesignMobile4.jpg)
+![Wireframe Mobile 5](./Diseños/Mobile_/DesignMobile5.jpg)
+![Wireframe Mobile 6](./Diseños/Mobile_/DesignMobile6.jpg)
+![Wireframe Mobile 7](./Diseños/Mobile_/DesignMobile7.jpg)
