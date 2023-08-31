@@ -9,14 +9,14 @@
 
 ## Planteamiento del problema
 
-A través de los años se ha visto el uso de armas, ya sea de fuego, nucleares, biológicas, químicas, etc., de forma desmedida por la población y los gobiernos. Esto ha causado problemas en la paz y seguridad a nivel nacional e internacional.  Lo que se busca con el "Desarme" es la reducción o eliminación total de las armas de cualquier tipo con el propósito de promover la paz, seguridad y estabilidad a nivel global. Sin embargo, esta problemática se enfrenta a varios desafíos y consideraciones que dificultan su implementación efectiva.
+A lo largo de la historia, hemos sido testigos del indiscriminado empleo de una variedad de armas, desde las convencionales hasta las más letales como las nucleares, biológicas y químicas. Esta imprudente utilización tanto por parte de ciudadanos como de gobiernos ha tenido repercusiones significativas en la tranquilidad y estabilidad, tanto a escala nacional como internacional. Lo que se busca con el "Desarme" es la reducción o eliminación total de las armas de cualquier tipo con el propósito de promover la paz, seguridad y estabilidad a nivel global. Sin embargo, esta problemática se enfrenta a varios desafíos y consideraciones que dificultan su implementación efectiva.
 
 Muchas organizaciones han sido creadas con el propósito de ayudar a cumplir el papel de mediador y poder dar la solución al porte y uso desmedido de armas de cualquier tipo. Una de estas y la que más destaca es la ONU (Organización de las Naciones Unidas), que desde sus inicios tuvo como objetivo principal cumplir esta tarea a mayor escala regulando el uso de armas de gran impacto, como por ejemplo: armas nucleares, armas químicas, armas biológicas.
 
 Debido a esto, se busca brindar más información a la población en general sobre el "Desarme". Las medidas que se han tomado a lo largo de la historia, lo que ha causado el uso precipitado de armas de todo tipo, problemas que ha generado a nivel internacional, organizaciones a cargo de implementar esta medida; y todo lo relacionado con el "Desarme".
 
 ## Objetivo
-Desarrollar un sitio web informativo implementando el uso de diversas fuentes que brindan informacion sobre acontecimientos relacionados con el desarme a nivel mundial, para que las personas puedan encontrar informacion veraz.
+Crear un sitio web informativo que integre una amplia variedad de fuentes confiables y actualizadas, con el propósito de proporcionar a los usuarios información precisa y objetiva acerca de los eventos y avances relacionados con el desarme a escala global. El sitio web se diseñará con la finalidad de permitir a las personas acceder de manera sencilla a datos verificados sobre el proceso de desarme en todo el mundo, y estará desarrollado bajo las tecnologías de HTML, CSS y BOOTSTRAP.
 
 ## Estado del arte
 
