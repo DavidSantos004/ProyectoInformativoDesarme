@@ -15,7 +15,7 @@ html {
 }
 
 h1 {
-  font-size: 10rem;
+  font-size: 12rem;
   text-align: center;
   z-index: 10;
   text-transform: uppercase;
@@ -145,6 +145,7 @@ li {
 
 .proceso__container .proceso__desarme:nth-child(even) p {
   margin-bottom: 30px;
+  padding: 0;
 }
 
 .proceso__container {
@@ -357,7 +358,8 @@ footer {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-  padding: 10px 20%;
+  padding: 20px 5vw;
+  font-weight: 600;
 }
 
 .autores a {
@@ -369,22 +371,83 @@ footer {
   color: var(--color-secundario);
 }
 
-/* CELULAR */
-@media (width <= 720px) {
-  .acerca,
-  .proceso,
-  .impacto,
-  .contacto,
-  .recursos {
-    padding: 100px 10% 40px;
+@media (width <= 1200px) {
+  /* ESTILOS AL FOOTER */
+  .autores {
+    padding: 20px 0;
   }
 
+  .impacto3 {
+    margin-top: -10px;
+  }
+  .impacto4 {
+    margin-top: -10px;
+  }
+  .impacto5 {
+    margin-top: -30px;
+  }
+  .impacto6 {
+    margin-top: 60px;
+  }
+  .impacto7 {
+    margin-top: -110px;
+  }
+  .impacto8 {
+    margin-top: 90px;
+  }
+  .impacto9 {
+    margin-top: -150px;
+  }
+  .impacto10 {
+    margin-top: 10px;
+  }
+}
+
+@media (width <= 1150px) {
+  /* ESTILOS AL FOOTER */
   h1 {
-    font-size: 10vw;
+    font-size: 10rem;
   }
 
-  /* ESTILOS A LA SECCION PROCESO DE DESARME */
+  .impacto3 {
+    margin-top: -30px;
+  }
+  .impacto4 {
+    margin-top: -30px;
+  }
+  .impacto5 {
+    margin-top: -50px;
+  }
+  .impacto6 {
+    margin-top: 70px;
+  }
+  .impacto7 {
+    margin-top: -130px;
+  }
+  .impacto8 {
+    margin-top: 90px;
+  }
+  .impacto9 {
+    margin-top: -150px;
+  }
+  .impacto10 {
+    margin-top: 10px;
+  }
 
+  /* ESTILOS A LA SECCION RECURSOS */
+
+  .contenedor__videos {
+    justify-content: space-evenly;
+  }
+
+  .contenedor__videos iframe {
+    width: 400px;
+    height: 220px;
+  }
+}
+
+@media (width <= 1050px) {
+  /* ESTILOS A LA SECCION PROCESOS */
   .proceso__desarme {
     display: flex;
     flex-direction: column;
@@ -400,9 +463,10 @@ footer {
   }
 
   .proceso__desarme img {
-    width: 100%;
-    height: 200px;
-    margin-top: 20px;
+    display: inline-block;
+    margin: 20px auto 0;
+    width: 400px;
+    height: 300px;
   }
 
   /* ESTILOS A LA SECCION IMPACTO POSITIVO */
@@ -417,141 +481,85 @@ footer {
     margin: 0 0 100px;
   }
 
+  .contenedor__impacto p {
+    margin-bottom: 30px;
+  }
+
   .contenedor__impacto figure {
-    width: 100%;
+    width: 500px;
+    height: 300px;
   }
 
   /* ESTILOS A LA SECCION CONTACTO */
 
-  .contacto h2 {
-    font-size: 6rem;
-  }
-
   .contacto__form {
     width: 100%;
-  }
-
-  /* ESTILOS A LA SECCION RECURSOS */
-
-  .recursos__contenedor {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .contenedor__videos {
-    margin-top: 30px;
-    align-items: center;
-    padding: 0 50px;
-  }
-
-  .contenedor__videos iframe {
-    width: 80%;
-    height: 210px;
-  }
-
-  .contenedor__videos iframe {
-    margin-top: 20px;
-  }
-
-  /* ESTILOS AL FOOTER */
-
-  footer {
-    font-size: 1.2rem;
-  }
-  .autores {
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 0;
-  }
-  .autores a {
-    margin-bottom: 10px;
   }
 }
 
-/* TABLET */
-@media (width > 720px) {
-  .acerca,
-  .proceso,
-  .impacto,
-  .contacto,
-  .recursos {
-    padding: 100px 10% 40px;
-  }
-
+@media (width <= 950px) {
   h1 {
-    font-size: 10vw;
-  }
-
-  /* ESTILOS A LA SECCION PROCESO DE DESARME */
-
-  .proceso__desarme {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .proceso__desarme p,
-  .proceso__desarme div {
-    padding: 0;
-  }
-
-  .proceso__container .proceso__desarme:nth-child(even) p {
-    margin-bottom: 20px;
-  }
-
-  .proceso__desarme img {
-    width: 100%;
-    height: 200px;
-    margin-top: 20px;
-  }
-
-  /* ESTILOS A LA SECCION IMPACTO POSITIVO */
-
-  .impacto {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 0;
-  }
-
-  .contenedor__impacto {
-    margin: 0 0 100px;
-  }
-
-  .contenedor__impacto figure {
-    width: 100%;
-  }
-
-  .contacto__form {
-    width: 100%;
+    font-size: 8rem;
   }
 
   /* ESTILOS A LA SECCION RECURSOS */
 
   .recursos__contenedor {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .contenedor__videos {
-    flex-direction: row;
     justify-content: space-between;
-    margin-top: 30px;
   }
 
   .contenedor__videos iframe {
-    margin-top: 20px;
+    width: 350px;
+    height: 197px;
+  }
+}
+
+@media (width <= 850px) {
+  /* ESTILOS A LA SECCION RECURSOS */
+
+  .recursos__contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor__videos {
+    margin-top: 40px;
+    flex-direction: row;
+  }
+
+  .contenedor__videos iframe {
+    width: 321px;
+    height: 181px;
   }
 
   /* ESTILOS AL FOOTER */
 
-  footer {
-    font-size: 1.2rem;
-  }
   .autores {
     flex-direction: column;
     align-items: center;
     padding-bottom: 0;
   }
+
   .autores a {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (width <= 750px) {
+  h1 {
+    font-size: 6.3rem;
+  }
+  /* ESTILOS A LA SECCION RECURSOS */
+  .contenedor__videos {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+
+  .contenedor__videos iframe {
+    width: 560px;
+    height: 315px;
+  }
+
+  .contenedor__videos iframe:nth-child(2) {
+    margin-top: 15px;
   }
 }
