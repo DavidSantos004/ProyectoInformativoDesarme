@@ -1,3 +1,173 @@
-.logo_principal{
-    
+/* DECLARACION DE VARIABLES DE COLOR Y VALORES FIJOS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+:root {
+  --color-principal: #3a606e;
+}
+
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 10rem;
+  text-align: center;
+  z-index: 10;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 7rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p,
+li {
+  font-size: 2rem;
+  text-align: justify;
+  margin: 0;
+}
+
+.acerca,
+.proceso,
+.impacto,
+.contacto,
+.recursos {
+  padding: 80px 10%;
+}
+
+.acerca,
+.impacto,
+.recursos {
+  background-color: var(--color-principal);
+  color: white;
+}
+
+/* ESTILOS A BARRA DE NAVEGACION */
+.navbar-brand {
+  pointer-events: none;
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+.nav-item {
+  padding-left: 20px;
+  font-size: 1.6rem;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--color-principal);
+  transition: 0.5s ease-out;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: var(--color-principal);
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0px 0px 5px black;
+}
+
+/* ESTILOS A LA SECCION BANER */
+.baner {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(./assets/CollageBanner.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.baner::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    transparent,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.6),
+    white
+  );
+}
+
+/* ESTILOS A LA SECCION PROCESO DE DESARME */
+
+.proceso div:nth-child(even) p {
+  margin-bottom: 30px;
+}
+
+.proceso__desarme {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 100px;
+  display: grid;
+  grid-template:
+    "titulo ." auto
+    "info   imagen" 1fr /
+    1fr 400px;
+}
+
+.proceso__desarme h3 {
+  grid-area: titulo;
+  margin-bottom: 20px;
+}
+
+.proceso__desarme p,
+.proceso__desarme div {
+  grid-area: info;
+  padding-right: 50px;
+}
+
+.proceso__desarme img {
+  grid-area: imagen;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.proceso li {
+  margin-bottom: 10px;
+}
+
+/* ESTILOS A LA SECCION IMPACTO */
+
+/* ESTILOS A LA SECCION CONTACTO */
+
+/* ESTILOS A LA SECCION RECURSOS */
