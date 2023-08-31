@@ -46,6 +46,10 @@ Adicionalmente, la Comisión de Desarme de las Naciones Unidas, como se destaca 
 - https://disarmament.unoda.org/publications/yearbook/
 - https://www.un.org/disarmament/es/folletos-informativos-sobre-cuestiones-de-desarme/
 
+# Proceso de desarrollo
+
+Para el desarrollo de nuestro proyecto se llevaron a cabo diferentes etapas, la primera de ellas fue el análisis y desarrollo de la problemática y el objetivo general de nuestro proyecto. Seguido se realizó un estado del arte que nos brindara información y fuentes confiables sobre el desarme para poder abstraer la información que estaría disponible en el sitio web. Después se definió cuál sería el formato de página web que mejor se adaptara para el objetivo planteado, una vez establecido el formato "página web informativa" se continuó con el diseño (wireframes) tanto para "desktop" como "móvil". Luego de estár definidos los diseños se continuó con la maquetación haciendo uso de la tecnología HTML, asegurándonos que estuviera semánticamente correcta y que tuviera coherencia para finalmente darle estilo con la tecnología CSS y el uso del framework Bootstrap únicamente para un componente del sitio web.
+
 # Wireframes
 ## Desktop
 La pantalla principal tiene un menú de navegación el cual tiene un logotipo y unos enlaces de referencia, además tiene un título referente a la temática a tratar con un banner de fondo.
@@ -53,12 +57,30 @@ La pantalla principal tiene un menú de navegación el cual tiene un logotipo y 
   <img src="./Desktop_/DesignDesktop1.jpg">
 </p>
 
+La segunda pantalla tiene un titulo, una imagen de referencia y el contenido general relacionado a la temática.
+<p align="center">
+  <img src="./Desktop_/DesignDesktop2.jpg">
+</p>
 
-![Wireframe Desktop 2](./Desktop_/DesignDesktop2.jpg)
-![Wireframe Desktop 3](./Desktop_/DesignDesktop3.jpg)
-![Wireframe Desktop 4](./Desktop_/DesignDesktop4.jpg)
-![Wireframe Desktop 5](./Desktop_/DesignDesktop5.jpg)
-![Wireframe Desktop 6](./Desktop_/DesignDesktop6.jpg)
+La tercera pantalla tiene un titulo y se divide en los subtemas referentes a las diferentes etapas que se deben llevar a cabo en un proceso de desarme.
+<p align="center">
+  <img src="./Desktop_/DesignDesktop3.jpg">
+</p>
+
+La cuarta pantalla contiene un título que hace referencia a algunos casos de éxito que se han logrado en diferentes prrocesos de desarme, se distribuye en un formato de 2 columnas.
+<p align="center">
+  <img src="./Desktop_/DesignDesktop4.jpg">
+</p>
+
+La quinta pantalla contiene un formulario con los campos de nombre, correo y el mensaje que desea.
+<p align="center">
+  <img src="./Desktop_/DesignDesktop5.jpg">
+</p>
+
+La última pantalla contiene la sección de recursos y el footer de la página, en la sección de recursos se encuentran diferentes links en dónde se podrá encontrar más información referente a la temática.
+<p align="center">
+  <img src="./Desktop_/DesignDesktop6.jpg">
+</p>
 
 #
 ## Mobile
