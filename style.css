@@ -7,6 +7,7 @@
 
 :root {
   --color-principal: #3a606e;
+  --color-secundario: #26bde2;
 }
 
 html {
@@ -28,6 +29,20 @@ h2 {
 
 h3 {
   font-size: 3rem;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.contenedor__impacto h3::before,
+.proceso__desarme h3::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  height: 4px;
+  background-color: var(--color-secundario);
 }
 
 p,
@@ -132,11 +147,17 @@ li {
   margin-bottom: 30px;
 }
 
-.proceso__desarme {
+.proceso__container {
   background-color: #eee;
   border-radius: 10px;
   padding: 20px;
+}
+
+.proceso__container article + article {
   margin-top: 100px;
+}
+
+.proceso__desarme {
   display: grid;
   grid-template:
     "titulo ." auto
@@ -146,7 +167,6 @@ li {
 
 .proceso__desarme h3 {
   grid-area: titulo;
-  margin-bottom: 20px;
 }
 
 .proceso__desarme p,
@@ -167,6 +187,85 @@ li {
 }
 
 /* ESTILOS A LA SECCION IMPACTO */
+
+.impacto {
+  display: grid;
+  grid-template:
+    "titulo   titulo    titulo" auto
+    "impacto1 separador impacto2" 1fr
+    "impacto3 separador impacto4" 1fr
+    "impacto5 separador impacto6" 1fr
+    "impacto7 separador impacto8" 1fr
+    "impacto9 separador impacto10" 1fr /
+    1fr auto 1fr;
+  column-gap: 50px;
+}
+
+.separador {
+  grid-area: separador;
+  width: 5px;
+  background-color: var(--color-secundario);
+}
+
+.impacto h2 {
+  grid-area: titulo;
+}
+
+.contenedor__impacto figure {
+  text-align: center;
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+}
+
+.contenedor__impacto figcaption {
+  margin-top: 10px;
+}
+
+.contenedor__impacto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contenedor__impacto p {
+  margin-bottom: 20px;
+}
+
+.impacto1 {
+  grid-area: impacto1;
+}
+.impacto2 {
+  grid-area: impacto2;
+}
+.impacto3 {
+  grid-area: impacto3;
+}
+.impacto4 {
+  grid-area: impacto4;
+  margin-top: 10px;
+}
+.impacto5 {
+  grid-area: impacto5;
+}
+.impacto6 {
+  grid-area: impacto6;
+  margin-top: 50px;
+}
+.impacto7 {
+  grid-area: impacto7;
+}
+.impacto8 {
+  grid-area: impacto8;
+  margin-top: 60px;
+}
+.impacto9 {
+  grid-area: impacto9;
+}
+.impacto10 {
+  grid-area: impacto10;
+  margin-top: 50px;
+}
 
 /* ESTILOS A LA SECCION CONTACTO */
 
