@@ -54,32 +54,32 @@ Para el desarrollo de nuestro proyecto se llevaron a cabo diferentes etapas, la 
 ## Desktop
 La pantalla principal tiene un menú de navegación el cual tiene un logotipo y unos enlaces de referencia, además tiene un título referente a la temática a tratar con un banner de fondo.
 <p align="center">
-  <img src="./Desktop_/DesignDesktop1.jpg">
+  <img src="./Diseños/Desktop/DesignDesktop1.jpg">
 </p>
 
 La segunda pantalla tiene un titulo, una imagen de referencia y el contenido general relacionado a la temática.
 <p align="center">
-  <img src="./Desktop_/DesignDesktop2.jpg">
+  <img src="./Diseños/Desktop/DesignDesktop2.jpg">
 </p>
 
 La tercera pantalla tiene un titulo y se divide en los subtemas referentes a las diferentes etapas que se deben llevar a cabo en un proceso de desarme.
 <p align="center">
-  <img src="./Desktop_/DesignDesktop3.jpg">
+  <img src="./Diseños/Desktop/DesignDesktop3.jpg">
 </p>
 
 La cuarta pantalla contiene un título que hace referencia a algunos casos de éxito que se han logrado en diferentes prrocesos de desarme, se distribuye en un formato de 2 columnas.
 <p align="center">
-  <img src="./Desktop_/DesignDesktop4.jpg">
+  <img src="./Diseños/Desktop/DesignDesktop4.jpg">
 </p>
 
 La quinta pantalla contiene un formulario con los campos de nombre, correo y el mensaje que desea.
 <p align="center">
-  <img src="./Desktop_/DesignDesktop5.jpg">
+  <img src="./Diseños/Desktop/DesignDesktop5.jpg">
 </p>
 
 La última pantalla contiene la sección de recursos y el footer de la página, en la sección de recursos se encuentran diferentes links en dónde se podrá encontrar más información referente a la temática.
 <p align="center">
-  <img src="./Desktop_/DesignDesktop6.jpg">
+  <img src="./Diseños/Desktop/DesignDesktop6.jpg">
 </p>
 
 #
