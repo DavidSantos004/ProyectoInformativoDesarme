@@ -16,7 +16,7 @@ Muchas organizaciones han sido creadas con el propósito de ayudar a cumplir el 
 Debido a esto, se busca brindar más información a la población en general sobre el "Desarme". Las medidas que se han tomado a lo largo de la historia, lo que ha causado el uso precipitado de armas de todo tipo, problemas que ha generado a nivel internacional, organizaciones a cargo de implementar esta medida; y todo lo relacionado con el "Desarme".
 
 ## Objetivo
-Crear un sitio web informativo que integre una amplia variedad de fuentes confiables y actualizadas, con el propósito de proporcionar a los usuarios información precisa y objetiva acerca de los eventos y avances relacionados con el desarme a escala global. El sitio web se diseñará con la finalidad de permitir a las personas acceder de manera sencilla a datos verificados sobre el proceso de desarme en todo el mundo, y estará desarrollado bajo las tecnologías de HTML, CSS y BOOTSTRAP.
+Crear un sitio web informativo que integre una amplia variedad de fuentes confiables y actualizadas, con el propósito de proporcionar a los usuarios información precisa y objetiva acerca de los eventos y avances relacionados con el desarme a escala global. El sitio web se diseñará con la finalidad de permitir a las personas acceder de manera sencilla a datos verificados sobre el proceso de desarme en todo el mundo, y estará desarrollado bajo las tecnologías de HTML, CSS, BOOTSTRAP y Figma.
 
 ## Estado del arte
 
@@ -91,3 +91,10 @@ La última pantalla contiene la sección de recursos y el footer de la página, 
 ![Wireframe Mobile 5](./Diseños/Mobile/DesignMobile5.jpg)
 ![Wireframe Mobile 6](./Diseños/Mobile/DesignMobile6.jpg)
 ![Wireframe Mobile 7](./Diseños/Mobile/DesignMobile7.jpg)
+
+
+# Conclusiones
+
+- Analizar y estructurar adecuadamente una página web es esencial para minimizar errores y aumentar las posibilidades de éxito en su desarrollo. Esta planificación meticulosa es clave para una experiencia de usuario mejorada y resultados más efectivos.
+- La técnica responsive es crucial para asegurar que un sitio web se vea correctamente en todos los dispositivos, mejorando la experiencia del usuario, la retención de visitantes y el posicionamiento en motores de búsqueda. Es esencial para la relevancia y competitividad en el entorno digital actual.
+- El uso de frameworks como Bootstrap agiliza la maquetación y el diseño web, pero puede limitar la personalización. Es una herramienta valiosa para proyectos con restricciones de tiempo y recursos, pero se debe equilibrar con la necesidad de crear experiencias únicas, eligiendo el enfoque adecuado según los objetivos del proyecto.
